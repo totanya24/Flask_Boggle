@@ -49,4 +49,4 @@ class FlaskTests(TestCase):
 
         self.client.get('/')
         response = self.client.get('/check-word?word=abcdefg')
-        self.assertEqual(response.json['result'], 'not-word')
+        self.assertEqual(response.json['result'], 'not-word`')
